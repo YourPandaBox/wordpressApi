@@ -2,5 +2,13 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "mysql": {
+    "name": "mysql",
+    "connector": "mysql",
+    "host": "sql168.main-hosting.eu",
+    "username": "u956569874_umyqa",
+    "password": "yTyzynuDub",
+    "database": "u956569874_yduha"
   }
 }

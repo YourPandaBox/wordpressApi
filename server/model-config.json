@@ -34,5 +34,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "ChildProfile": {
+    "dataSource": "db",
+    "public": true
+  },
+  "codigos_postales": {
+    "dataSource": "mysql",
+    "public": true
   }
 }

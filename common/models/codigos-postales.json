@@ -1,0 +1,27 @@
+{
+  "name": "codigos_postales",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "mysql":{
+  	"table":"wp_rg_form"
+  },
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+
+    "title": {
+      "type": "string",
+      "mysql":{
+		"columnName":"title",
+		"dataType":"VARCHAR",
+		"dataLength":150,
+		"nullable":"N"
+	      }
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
